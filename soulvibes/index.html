@@ -23,6 +23,33 @@
             </div>
         </div>
     </header>
+    <main class="main-content">
+        <div class="music-player-wrap">
+            <div class="music-player container">
+                <input type="checkbox" id="player">
+                <label for="player">
+                    <i class="play-btn" onclick="playSong()"></i>
+<!--                    <button class="play-btn" onclick="playSong()" type="button"></button>-->
+                </label>
+                <h2 class="song-title">The Diary of Jane - Breaking Benjamin</h2>
+                <audio id="song">
+                    <source src="media/song.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        var activeSong = document.getElementById("song");
+
+        function playSong() {
+            if (activeSong.paused) {
+                activeSong.play();
+            } else {
+                activeSong.pause();
+            }
+        };
+    </script>
 </body>
 
 </html>
