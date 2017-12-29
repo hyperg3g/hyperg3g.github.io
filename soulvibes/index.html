@@ -29,14 +29,67 @@
                 <input type="checkbox" id="player">
                 <label for="player">
                     <i class="play-btn" onclick="playSong()"></i>
-<!--                    <button class="play-btn" onclick="playSong()" type="button"></button>-->
                 </label>
                 <h2 class="song-title">The Diary of Jane - Breaking Benjamin</h2>
+                <div class="track-bar"></div>
                 <audio id="song">
                     <source src="media/song.mp3" type="audio/mpeg">
                 </audio>
+                <div class="player-control">
+                    <button class="circle-btn volume-btn" type="button"></button>
+                    <button class="circle-btn prev-btn" type="button"></button>
+                    <button class="circle-btn next-btn" type="button"></button>
+                    <button class="circle-btn repeat-btn" type="button"></button>
+                    <button class="circle-btn grid-btn" type="button"></button>
+                </div>
             </div>
         </div>
+        <section class="promo-block container">
+            <h2 class="block-title">Genres Stations</h2>
+            <ul class="promo-list">
+                <li class="promo-item">
+                    <img src="img/icon-1.svg" width="67" height="71" alt="trending top">
+                    <a class="trending-top-link" href="#"></a>
+                    <span class="promo-name">Trending Top</span>
+                </li>
+                <li class="promo-item">
+                    <img src="img/icon-2.svg" width="83" height="82" alt="rock">
+                    <a class="rock-link" href="#"></a>
+                    <span class="promo-name">Rock</span>
+                </li>
+                <li class="promo-item">
+                    <img src="img/icon-3.svg" width="99" height="94" alt="RnB">
+                    <a class="rnb-link" href="#"></a>
+                    <span class="promo-name">R n B</span>
+                </li>
+                <li class="promo-item">
+                    <img src="img/icon-4.svg" width="64" height="67" alt="alternative">
+                    <a class="alternative-link" href="#"></a>
+                    <span class="promo-name">Alternative</span>
+                </li>
+                <li class="promo-item">
+                    <img src="img/icon-5.svg" width="70" height="70" alt="country">
+                    <a class="county-link" href="#"></a>
+                    <span class="promo-name">Country</span>
+                </li>
+                <li class="promo-item">
+                    <img src="img/icon-6.svg" width="85" height="85" alt="pop">
+                    <a class="pop-link" href="#"></a>
+                    <span class="promo-name">Pop</span>
+                </li>
+                <li class="promo-item">
+                    <img src="img/icon-7.svg" width="68" height="76" alt="jazz">
+                    <a class="jazz-link" href="#"></a>
+                    <span class="promo-name">Jazz</span>
+                </li>
+                <li class="promo-item">
+                    <img src="img/icon-8.svg" width="76" height="79" alt="raggae">
+                    <a class="reggae-link" href="#"></a>
+                    <span class="promo-name">Raggae</span>
+                </li>
+            </ul>
+            <button class="more-btn" type="button">Load more</button>
+        </section>     
     </main>
 
     <script>
