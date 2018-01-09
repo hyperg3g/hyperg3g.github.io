@@ -30,8 +30,10 @@
                 <label for="player">
                     <i class="play-btn" onclick="playSong()"></i>
                 </label>
-                <h2 class="song-title">The Diary of Jane - Breaking Benjamin</h2>
-                <div class="track-bar"></div>
+                <div class="title-bar-wrap">
+                    <h2 class="song-title">The Diary of Jane - Breaking Benjamin</h2>
+                    <div class="track-bar"></div>
+                </div>
                 <audio id="song">
                     <source src="media/song.mp3" type="audio/mpeg">
                 </audio>
@@ -49,47 +51,58 @@
             <ul class="promo-list">
                 <li class="promo-item">
                     <img src="img/icon-1.svg" width="67" height="71" alt="trending top">
-                    <a class="trending-top-link" href="#"></a>
-                    <span class="promo-name">Trending Top</span>
+                    <a class="promo-name" href="#">Trending Top</a>
                 </li>
                 <li class="promo-item">
                     <img src="img/icon-2.svg" width="83" height="82" alt="rock">
-                    <a class="rock-link" href="#"></a>
-                    <span class="promo-name">Rock</span>
+                    <a class="promo-name" href="#">Rock</a>
                 </li>
                 <li class="promo-item">
                     <img src="img/icon-3.svg" width="99" height="94" alt="RnB">
-                    <a class="rnb-link" href="#"></a>
-                    <span class="promo-name">R n B</span>
+                    <a class="promo-name" href="#">R n B</a>
                 </li>
                 <li class="promo-item">
                     <img src="img/icon-4.svg" width="64" height="67" alt="alternative">
-                    <a class="alternative-link" href="#"></a>
-                    <span class="promo-name">Alternative</span>
+                    <a class="promo-name" href="#">Alternative</a>
                 </li>
                 <li class="promo-item">
                     <img src="img/icon-5.svg" width="70" height="70" alt="country">
-                    <a class="county-link" href="#"></a>
-                    <span class="promo-name">Country</span>
+                    <a class="promo-name" href="#">Country</a>
                 </li>
                 <li class="promo-item">
                     <img src="img/icon-6.svg" width="85" height="85" alt="pop">
-                    <a class="pop-link" href="#"></a>
-                    <span class="promo-name">Pop</span>
+                    <a class="promo-name" href="#">Pop</a>
                 </li>
                 <li class="promo-item">
                     <img src="img/icon-7.svg" width="68" height="76" alt="jazz">
-                    <a class="jazz-link" href="#"></a>
-                    <span class="promo-name">Jazz</span>
+                    <a class="promo-name" href="#">Jazz</a>
                 </li>
                 <li class="promo-item">
                     <img src="img/icon-8.svg" width="76" height="79" alt="raggae">
-                    <a class="reggae-link" href="#"></a>
-                    <span class="promo-name">Raggae</span>
+                    <a class="promo-name" href="#">Raggae</a>
                 </li>
             </ul>
             <button class="more-btn" type="button">Load more</button>
-        </section>     
+        </section>
+        <section class="event-block">
+            <h2 class="block-title">Upcoming Events</h2>
+            <div class="event-list-wrap">
+                <ul class="event-list container">
+                    <li class="event-item">
+                        <p class="event-date">Wednesday / 22 Dec 2017 / 12:00 PM</p>
+                        <h3>Linkin Park</h3>    
+                        <p class="event-address">Ziggo Dome</p>
+                        <p class="event-address">De Passage 100, Amsterdam, Netherlands</p>
+                    </li>
+                    <li class="event-item">
+                        <p class="event-date">Wednesday / 22 Dec 2017 / 12:00 PM</p>
+                        <h3>Burger kill</h3>
+                        <p class="event-address">Ziggo Dome</p>
+                        <p class="event-address">De Passage 100, Amsterdam, Netherlands</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <script>
