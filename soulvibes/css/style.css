@@ -307,6 +307,8 @@ a {
 }
 
 .promo-block {
+    margin-bottom: 86px;
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -473,17 +475,47 @@ a {
 }
 
 .more-btn:focus {
-    -webkit-box-shadow: inset 0 0 2px 0 #000;
+    -webkit-box-shadow: inset 0 0 10px 0 #000;
     box-shadow: inset 0 0 10px 0 #000;
 }
 
-.event-list-wrap {    
+.event-block .block-title {
     margin: 0 auto;
+    margin-bottom: 56px;
+}
+
+.event-wrap {
     width: 100%;
     min-height: 485px;
     
+    background-color: #b30b1e;
     background-image: url("../img/promo-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #b30b1e;
+}
+
+.event-list {
+    padding: 0;
+    padding-top: 65px;
+    padding-left: 87px;
+    
+    list-style: none;
+}
+
+.event-list h3 {
+    margin: 0;
+    
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.event-list p {
+    margin: 0;
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.event-list li {
+    
 }
