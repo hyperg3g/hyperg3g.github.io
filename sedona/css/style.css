@@ -191,3 +191,175 @@ body {
     margin-bottom: 10px;
 }
 
+.service {
+    min-height: 291px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service h2 {
+    margin-top: 50px;
+    margin-bottom: -20px;
+    font-size: 30px;
+    font-weight : 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.service p {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.popup-btn {
+    width: 568px;
+    height: 86px;
+
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+
+
+    background-color: #766357;
+    border: none;
+    cursor: pointer;
+}
+
+.main-footer {
+    min-height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer .hashtag {
+    margin-top: 41px;
+    width: 400px;
+    display: block;
+
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+.social-buttons {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    list-style: none;
+}
+
+.social-buttons li:nth-child(1),
+.social-buttons li:nth-child(2) {
+    margin-right: 6px;
+}
+
+.social-buttons a {
+    width: 46px;
+    height: 48px;
+    display: block;
+    position: relative;
+    background-color: #81b3d2;
+}
+
+.social-buttons a:hover {
+    background-color: #669ec0;
+}
+
+.social-buttons a:focus::before {
+    opacity: 0.3;
+}
+
+.social-buttons .twitter-btn::before {
+    content: "";
+
+    position: absolute;
+    top: 18px;
+    left: 15px;
+
+    width: 17px;
+    height: 15px;
+    background-image: url("../img/twitter.png");
+}
+
+.social-buttons .facebook-btn::before {
+    content: "";
+
+    position: absolute;
+    top: 14px;
+    left: 16px;
+
+    width: 12px;
+    height: 22px;
+    background-image: url("../img/facebook.png");
+}
+
+.social-buttons .youtube-btn::before {
+    content: "";
+
+    position: absolute;
+    top: 17px;
+    left: 13px;
+
+    width: 20px;
+    height: 16px;
+    background-image: url("../img/youtube.png");
+}
+
+.landing {
+    margin-top: 35px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.landing p {
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 3px;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.landing a {
+    margin-left: 5px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
