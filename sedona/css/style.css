@@ -194,6 +194,7 @@ body {
 .service {
     min-height: 291px;
 
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -232,10 +233,30 @@ body {
     color: #fff;
     text-transform: uppercase;
 
-
     background-color: #766357;
     border: none;
     cursor: pointer;
+}
+
+.popup-wrap {
+    width: 568px;
+    height: 395px;
+
+    position: absolute;
+    top: 291px;
+    left: 316px;
+    background-color: #fff;
+
+    transition-property: all;
+	transition-duration: 2s;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+
+.pogchamp {
+    position: absolute;
+    top: 20px;
+    left: 110px;
 }
 
 .main-footer {
