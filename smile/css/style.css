@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Montserrat", "Arial", sans-serif;
+
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+
+    color: #fff;
+}
+
+img {
+    animation: beat 1000ms ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes beat {
+    0% {
+    transform: scale(0.8);
+    }
+    5% {
+    transform: scale(0.9);
+    }
+    10% {
+    transform: scale(0.8);
+    }
+    15% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(0.8);
+    }
+    100% {
+    transform: scale(0.8);
+    }
+}
